@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form</title>
+</head>
+<body>
+    <form>
+        <!-- Header -->
+    <div class="head1">
+        <header>
+            <head>
+                <strong>Complex Form</strong>
+            </head>
+        </header>
+    </div>
+
+    <!-- Main -->
+
+    <main>
+        <!-- Personal Information -->
+        <div class="personal_info">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="name">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name">
+                </div>
+                
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="phone">
+                    <label for="phone">Phone: </label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+
+                <div class="dob">
+                    <label for="dob">Date Of Birth: </label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+
+                <div class="gender">
+                    <label for="gender">Gender: </label>
+                    
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="country">
+                    <label for="country">Counrty</label>
+                    <select name="country" id="country">
+                        <option value="ind">India</option>
+                        <option value="us">United State</option>
+                        <option value="other">Others</option>
+                    </select>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="address">
+            <fieldset>
+                <legend>Address</legend>
+                
+                <div class="street">
+                    <label for="street">Street</label>
+                    <input type="text" name="street" id="street">
+                </div>
+
+                <div class="city">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+
+                <div class="State">
+                    <label for="State">State</label>
+                    <input type="text" name="State" id="State">
+                </div>
+
+                 <div class="zipcode">
+                    <label for="zipcode">Zipcode</label>
+                    <input type="number" name="zipcode" id="zipcode">
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="other_info">
+            <fieldset>
+                <legend>Other Information</legend>
+
+                <div class="comment">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Please Comment Here"></textarea>
+                    <input type="checkbox" name="terms" id="terms">
+                    <small id="terms">I agree to terms and condition</small>
+                </div>
+            </fieldset>
+
+            <input type="submit" name="submit" id="sumbit">
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    </form>
+</body>
+</html>
